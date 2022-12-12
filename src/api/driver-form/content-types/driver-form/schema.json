@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "driver_forms",
+  "info": {
+    "singularName": "driver-form",
+    "pluralName": "driver-forms",
+    "displayName": "driver-form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "country": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "postal": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
