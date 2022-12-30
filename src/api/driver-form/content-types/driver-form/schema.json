@@ -4,7 +4,8 @@
   "info": {
     "singularName": "driver-form",
     "pluralName": "driver-forms",
-    "displayName": "driver-form"
+    "displayName": "driver-form",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,11 +24,12 @@
     "city": {
       "type": "string"
     },
-    "phone": {
-      "type": "biginteger"
-    },
     "email": {
       "type": "email"
+    },
+    "phone": {
+      "type": "string",
+      "regex": "^[\\d\\(\\)\\-+]+$"
     }
   }
 }
