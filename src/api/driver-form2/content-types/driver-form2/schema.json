@@ -24,11 +24,12 @@
     "city": {
       "type": "string"
     },
-    "phone": {
-      "type": "biginteger"
-    },
     "email": {
       "type": "email"
+    },
+    "phone": {
+      "type": "string",
+      "regex": "^[\\d\\(\\)\\-+]+$"
     }
   }
 }
