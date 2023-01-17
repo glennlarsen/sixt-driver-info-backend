@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "driver_form5s",
+  "info": {
+    "singularName": "driver-form5",
+    "pluralName": "driver-form5s",
+    "displayName": "driver-form5"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "country": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "postal": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

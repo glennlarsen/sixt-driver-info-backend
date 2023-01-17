@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "driver_form4s",
+  "info": {
+    "singularName": "driver-form4",
+    "pluralName": "driver-form4s",
+    "displayName": "driver-form4"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "country": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "postal": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
