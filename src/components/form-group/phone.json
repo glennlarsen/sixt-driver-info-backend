@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_group_phones",
+  "info": {
+    "displayName": "phone",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "disabled": {
+      "type": "boolean"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

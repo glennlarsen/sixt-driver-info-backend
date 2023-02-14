@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_group_emails",
+  "info": {
+    "displayName": "email",
+    "icon": "mail-bulk"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "disabled": {
+      "type": "boolean"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

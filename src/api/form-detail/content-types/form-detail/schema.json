@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_details",
+  "info": {
+    "singularName": "form-detail",
+    "pluralName": "form-details",
+    "displayName": "form-details",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "formInputs": {
+      "type": "dynamiczone",
+      "components": [
+        "form-group.city",
+        "form-group.country",
+        "form-group.email",
+        "form-group.phone",
+        "form-group.postal",
+        "form-group.street"
+      ]
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "form_details"
+    }
+  }
+}

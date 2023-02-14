@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_group_streets",
+  "info": {
+    "displayName": "street",
+    "icon": "street-view"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "disabled": {
+      "type": "boolean"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

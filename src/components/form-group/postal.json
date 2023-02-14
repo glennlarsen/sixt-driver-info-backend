@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_group_postals",
+  "info": {
+    "displayName": "postal",
+    "icon": "map-marker"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "disabled": {
+      "type": "boolean"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

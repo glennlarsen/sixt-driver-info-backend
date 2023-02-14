@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_group_cities",
+  "info": {
+    "displayName": "city",
+    "icon": "city"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "disabled": {
+      "type": "boolean"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}
